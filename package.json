@@ -1,0 +1,15 @@
+{
+  "name": "opencode-extensions",
+  "private": true,
+  "type": "module",
+  "workspaces": ["telegram"],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "check": "tsc --noEmit && bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "opencode-telegram",
+  "version": "0.1.0",
+  "description": "Telegram bridge for OpenCode: answer questions and permissions remotely, get turn alerts, one topic per session.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.ts",
+    "./tui": "./tui.ts"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.22",
+    "marked": "^16.4.0"
+  }
+}
