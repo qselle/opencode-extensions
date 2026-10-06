@@ -15,10 +15,14 @@
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@opentui/solid"
   },
   "include": [
     "*/src/**/*.ts",
-    "*/*.ts"
+    "*/src/**/*.tsx",
+    "*/*.ts",
+    "*/*.tsx"
   ]
 }

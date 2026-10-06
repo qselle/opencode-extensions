@@ -2,7 +2,10 @@
   "name": "opencode-extensions",
   "private": true,
   "type": "module",
-  "workspaces": ["telegram"],
+  "workspaces": [
+    "telegram",
+    "cat"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "bun test",

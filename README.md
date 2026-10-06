@@ -5,6 +5,7 @@ Personal plugins for [OpenCode](https://opencode.ai) V2, ported from my [Pi exte
 | Plugin | Purpose |
 | --- | --- |
 | [`telegram`](telegram) | Answer questions and permissions from Telegram, turn alerts, one topic per session |
+| [`cat`](cat) | Small animated cat in the sidebar's bottom-right corner (TUI-only, goes in `cli.json`) |
 
 ## Install
 
